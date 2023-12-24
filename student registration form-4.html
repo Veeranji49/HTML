@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Employee Registration Form</title>
+        <style type="text/css">
+           .form{
+            color:blue;
+            background-color: bisque;
+            text-align: center;
+            text-transform: capitalize;
+
+           };
+           .table{
+            background-color: darkcyan;
+            border-radius: 1%;
+            border-color: chartreuse;
+            border: 1;
+            text-align: center;
+            align-items: center;
+            color: chartreuse;
+           }
+        </style>
+    </head>
+    <body>
+        <form class="form">
+            <table class="table" border="1" align="center">
+                <h1>Employee Registration Form</h1>
+                <tr>
+                    <td><label>Employee Id</label></td>
+                    <td><input type="text" placeholder="enter employee id"/></td>
+                </tr>
+                <tr>
+                    <td><label>Employee Name</label></td>
+                    <td><input type="text" placeholder="enter employee name"/></td>
+                </tr>
+                <tr>
+                    <td><label>Employee Salary</label></td>
+                    <td><input type="text" placeholder="enter employee salary"/></td>
+                </tr>
+                <tr>
+                    <td><label>Employee Email</label></td>
+                    <td><input type="text" placeholder="enter employee email"/></td>
+                </tr>
+                <tr>
+                    <td><label>Course</label></td>
+                    <td><input type="checkbox" name="JFS"/>JFS
+                        <input type="checkbox" name="PFS"/>PFS
+                        <input type="checkbox" name="DFS"/>DFS
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td><input type="radio" name="male"/>Male
+                        <input type="radio" name="female"/>Female
+                        <input type="radio" name="others"/>others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Employee State</label></td>
+                    <td><select>
+                        <option>Andhra pradesh</option>
+                        <option>Telangana</option>
+                        <option>UttarPradesh</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label>Qualification</label></td>
+                    <td><select>
+                        <option>Degree</option>
+                        <option>Intermediate</option>
+                        <option>SSC</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><lable>Date</lable></td>
+                    <td><input type="date"/></td>
+                </tr>
+                <tr>
+                    <td><label>Comments</label></td>
+                    <td><textarea colums="5" rows="3">Enter text</textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" value="submit"/>
+                        <input type="submit" value="Reset"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
