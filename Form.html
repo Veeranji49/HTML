@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- boostrap css cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <h1 style="color:red ; text-align: center;">Registration Form</h1>
+        <form>
+            <table class="table table-bordered table-striped table-hover">
+                <tr>
+                    <td>
+                        <lable>Name:</lable>
+                    </td>
+                    <td> <input type="text" name="name" placeholder="enter name" /></td>
+                </tr>
+                <tr>
+                    <td><label>Father Name:</label></td>
+                    <td><input type="text" name="fathername" placeholder="enter father name" /></td>
+                </tr>
+                <tr>
+                    <td><label>Age:</label></td>
+                    <td><input type="text" name="age" placeholder="enter age" /> </td>
+                </tr>
+                <tr>
+                    <td><label>Contact</label></td>
+                    <td><input type="number" name="contact" placeholder="enter contact" /></td>
+                </tr>
+                <tr>
+                    <td><label>Qualification</label></td>
+                    <td><select>
+                            <option>BSC</option>
+                            <option>Intermediate</option>
+                            <option>SSC</option>
+                            <option>5th standard</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" name="email" placeholder="enter email" /></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td><input type="radio" name="Male" />Male
+                        <input type="radio" name="female" />female
+                        <input type="radio" name="others" />Others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Course</label></td>
+                    <td><input type="checkbox" name="JFS" />JFS
+                        <input type="checkbox" name="PFS" />PFS
+                        <input type="checkbox" name="DFS" />DFS
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Date</label></td>
+                    <td><input type="date" name="date" placeholder="enter date" /></td>
+                </tr>
+                <tr>
+                    <td><label>Comments</label></td>
+                    <td><textarea role="10" cols="50">add comment</textarea></td>
+                </tr>
+                <tr colspan="2" align="center">
+                    <td class="table-prmary"><input type="submit" value="submit" />
+                        <input type="reset" value="Reset" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
